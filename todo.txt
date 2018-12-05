@@ -1,0 +1,18 @@
+Anchor About Me DONE 
+Pic in circle DONE 
+Remove lines DONE
+Web Academy DONE
+Fewer words DONE
+Remove 'Position' and 'Period' DONE
+Make tech stack viewable immediately DONE
+Add to portfolio DONE
+Move online links into straight line DONE
+
+(higher anchor) DONE
+(proper circle) DONE
+
+align from center education/job experience OR stack DONE
+Skills - narrow tech stack (3 and 3) 
+Portfolio - narrow space between cards DONE
+          -   keep left aligned
+          - 4th placeholder "Your project here.."

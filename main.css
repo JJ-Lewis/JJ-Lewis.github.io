@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Global  */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+  }
+
+/* Navbar */
+
+.navbar {
+    padding: .7rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #17a2b8;
+    color: white;
+}
+
+.nav-link, .nav-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ 
+.navbar-nav li {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.navlink {
+    font-size: 1.3em !important;
+}
+
+/* Welcome */
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    padding-top: 1.5rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+}
+
+.welcome h1 {
+    padding-top: 5rem;
+}
+
+
+.welcome hr {
+    width: 50%;
+    color: rgb(236, 234, 234);
+}
+
+/* Font Awesome Icons */
+
+.fa-user-graduate, .fa-briefcase, .fa-wrench {
+    color: #17a2b8;
+    font-size: 1.75rem;
+    margin: 1rem;
+}
+
+/* Grow Animation */
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.5); }
+
+/* Tech Stack Dropdown */
+
+.techstack {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.stackicon {
+    max-width: 100%;
+    font-size: 2.5rem;
+
+}
+
+/* Footer */
+
+footer {
+    background-color: #17a2b8;
+    color: white;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid white;
+}
+
+.fa-phone, .fa-envelope, .fa-git, .fa-linkedin {
+    font-size: 2em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Styling for Pace.js */
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .pace.pace-inactive .pace-progress {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 0;
+    height: 5rem;
+    width: 5rem;
+  
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    -ms-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+  
+  .pace .pace-progress:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: .5rem;
+    content: attr(data-progress-text);
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    font-size: 5rem;
+    line-height: 1;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.19999999999999996);
+  }
+  
+
+  /* if pace.js isnt loaded, make the page appear as normal */
+  
+ .pace-running > :not(.pace) {
+    opacity: 0;
+  }
+  
+  .pace-done > :not(.pace) {
+    opacity: 1;
+    transition: opacity .5s ease;
+  }
+
+
+  
